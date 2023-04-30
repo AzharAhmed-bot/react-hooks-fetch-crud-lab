@@ -1,5 +1,4 @@
-{
-  "questions": [
+[
     {
       "id": 1,
       "prompt": "What special prop should always be included for lists of elements?",
@@ -9,7 +8,18 @@
         "key",
         "prop"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
+    },
+    {
+      "id": 2,
+      "prompt": "A React component is a function that returns ______.",
+      "answers": [
+        "HTML",
+        "JSX",
+        "props",
+        "state"
+      ],
+      "correctIndex": 1
     },
     {
       "id": 3,
@@ -34,6 +44,28 @@
       "correctIndex": 1
     },
     {
+      "id": 5,
+      "prompt": "What syntax makes it possible to unpack values from arrays, or properties from objects, into distinct variables?",
+      "answers": [
+        "spread",
+        "key-value",
+        "coalescing",
+        "destructuring"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 6,
+      "prompt": "Returning different elements from a component depending on the state of your application is known as _____ rendering.",
+      "answers": [
+        "voodoo",
+        "conditional",
+        "reactive",
+        "controlled"
+      ],
+      "correctIndex": 1
+    },  
+    {
       "prompt": "Which is the tallest mountain in Africa?",
       "answers": [
         "Mt.Kenya",
@@ -42,7 +74,6 @@
         "Mt.Elgon"
       ],
       "correctIndex": 1,
-      "id": 5
+      "id": 10
     }
   ]
-}
